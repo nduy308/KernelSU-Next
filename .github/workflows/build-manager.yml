@@ -81,8 +81,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
         with:
+          ref: '7ac03d67f9602f3069cc8fb58231c62ba431e679'
           fetch-depth: 0
-          ref: '7ac03d6'
+
 
       - name: Spoof Package ID
         if: matrix.spoofed == true
