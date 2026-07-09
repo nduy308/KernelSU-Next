@@ -81,6 +81,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
         with:
+          repository: 'KernelSU-Next/KernelSU-Next'
           ref: '7ac03d67f9602f3069cc8fb58231c62ba431e679'
           fetch-depth: 0
 
